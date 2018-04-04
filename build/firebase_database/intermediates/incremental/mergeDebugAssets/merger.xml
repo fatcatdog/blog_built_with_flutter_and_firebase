@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/jacobduchen/.pub-cache/hosted/pub.dartlang.org/firebase_database-0.4.1/android/src/main/assets"/><source path="/Users/jacobduchen/Desktop/flutter_firebase/build/firebase_database/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/jacobduchen/.pub-cache/hosted/pub.dartlang.org/firebase_database-0.4.1/android/src/debug/assets"/></dataSet></merger>

@@ -1,0 +1,386 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml:1:1-39:12
+MERGED from [:firebase_database] /Users/jacobduchen/Desktop/flutter_firebase/build/firebase_database/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:firebase_core] /Users/jacobduchen/Desktop/flutter_firebase/build/firebase_core/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-core:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-core-11.8.0.aar/9fe71174fbff4accc1c84ce158e0243e/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-auth:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.8.0.aar/be8c9c36c0f135070f95034a233d5028/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.firebase:firebase-database:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-database-11.8.0.aar/3c6b0684045b81c66875f91c8a87705f/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/08d1d9fbdd4710bc973a4e0100d8f17a/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-database-connection:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.8.0.aar/6f2d4b9b5702f6edd4a5c173939c1d7a/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/95a0fdcc13af8b4f665d267bf9a706eb/AndroidManifest.xml:17:1-54:12
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/72cf6ee5883c283450532c77a95a2eca/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-common:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/505b140efd166b30f9a3f88409cebd41/AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/eb6eb4ba8715837d483d66c84cf980c2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/581de2b0fae2caf878058a17b335371f/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-auth-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-11.8.0.aar/d5c02293226092f4304eb2293560bcd8/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-database-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-database-license-11.8.0.aar/f3da00a2a8fa519948b878b8e68aaf76/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/140a73001ed76163b78aad9f61b79cc4/AndroidManifest.xml:2:1-6:12
+MERGED from [com.android.support:support-v4:25.2.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/e0397238eb789b87dd643943a9c32d91/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/45624ce37b7b924e76684b88ce03b24a/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.8.0.aar/21c5a4b853c1d211d2a09bf09ddb2f4b/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/fcdd9906dcd97f1f70ff7bd744a333d4/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-database-connection-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-11.8.0.aar/65a441db98c670ca895c31ada3e26007/AndroidManifest.xml:2:1-6:12
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/65327dfee108dfb0ca4ece4befd5ac3b/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/37a51b2bd93c56073e0d988229546ab4/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/3cca89a280619082030ef5d3d25f85ab/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/56a6321a54956cb817208e5179831897/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:25.2.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/a6da9c332cca502a3184213a01495c47/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.8.0.aar/e4a84520bf2a024e806d67697c903298/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.8.0.aar/6133eb6c0ad3ea40a9ede1be02dc1717/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-iid-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.8.0.aar/b0ec316b4c3457e10c584d0d23f0e6fb/AndroidManifest.xml:2:1-6:12
+INJECTED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml:1:1-39:12
+	package
+		ADDED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml:2:5-42
+		INJECTED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml:1:1-39:12
+		INJECTED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml:1:1-39:12
+		INJECTED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml:8:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/95a0fdcc13af8b4f665d267bf9a706eb/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/95a0fdcc13af8b4f665d267bf9a706eb/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/72cf6ee5883c283450532c77a95a2eca/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/72cf6ee5883c283450532c77a95a2eca/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml:8:22-64
+application
+ADDED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml:15:5-38:19
+MERGED from [com.google.firebase:firebase-core:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-core-11.8.0.aar/9fe71174fbff4accc1c84ce158e0243e/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-core-11.8.0.aar/9fe71174fbff4accc1c84ce158e0243e/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-auth:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.8.0.aar/be8c9c36c0f135070f95034a233d5028/AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.firebase:firebase-auth:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.8.0.aar/be8c9c36c0f135070f95034a233d5028/AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/08d1d9fbdd4710bc973a4e0100d8f17a/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/08d1d9fbdd4710bc973a4e0100d8f17a/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/95a0fdcc13af8b4f665d267bf9a706eb/AndroidManifest.xml:27:5-52:19
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/95a0fdcc13af8b4f665d267bf9a706eb/AndroidManifest.xml:27:5-52:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/72cf6ee5883c283450532c77a95a2eca/AndroidManifest.xml:27:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/72cf6ee5883c283450532c77a95a2eca/AndroidManifest.xml:27:5-38:19
+MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-common:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/505b140efd166b30f9a3f88409cebd41/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-common:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/505b140efd166b30f9a3f88409cebd41/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/eb6eb4ba8715837d483d66c84cf980c2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/eb6eb4ba8715837d483d66c84cf980c2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/581de2b0fae2caf878058a17b335371f/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/581de2b0fae2caf878058a17b335371f/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.firebase:firebase-auth-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-11.8.0.aar/d5c02293226092f4304eb2293560bcd8/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-auth-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-11.8.0.aar/d5c02293226092f4304eb2293560bcd8/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-database-license-11.8.0.aar/f3da00a2a8fa519948b878b8e68aaf76/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-database-license-11.8.0.aar/f3da00a2a8fa519948b878b8e68aaf76/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/140a73001ed76163b78aad9f61b79cc4/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/140a73001ed76163b78aad9f61b79cc4/AndroidManifest.xml:5:5-20
+MERGED from [com.android.support:support-v4:25.2.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/e0397238eb789b87dd643943a9c32d91/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.2.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/e0397238eb789b87dd643943a9c32d91/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/45624ce37b7b924e76684b88ce03b24a/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/45624ce37b7b924e76684b88ce03b24a/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.8.0.aar/21c5a4b853c1d211d2a09bf09ddb2f4b/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.8.0.aar/21c5a4b853c1d211d2a09bf09ddb2f4b/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/fcdd9906dcd97f1f70ff7bd744a333d4/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/fcdd9906dcd97f1f70ff7bd744a333d4/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-connection-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-11.8.0.aar/65a441db98c670ca895c31ada3e26007/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-connection-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-11.8.0.aar/65a441db98c670ca895c31ada3e26007/AndroidManifest.xml:5:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/65327dfee108dfb0ca4ece4befd5ac3b/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/65327dfee108dfb0ca4ece4befd5ac3b/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/37a51b2bd93c56073e0d988229546ab4/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/37a51b2bd93c56073e0d988229546ab4/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/3cca89a280619082030ef5d3d25f85ab/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/3cca89a280619082030ef5d3d25f85ab/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/56a6321a54956cb817208e5179831897/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/56a6321a54956cb817208e5179831897/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/a6da9c332cca502a3184213a01495c47/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/a6da9c332cca502a3184213a01495c47/AndroidManifest.xml:25:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.8.0.aar/e4a84520bf2a024e806d67697c903298/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.8.0.aar/e4a84520bf2a024e806d67697c903298/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.8.0.aar/6133eb6c0ad3ea40a9ede1be02dc1717/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.8.0.aar/6133eb6c0ad3ea40a9ede1be02dc1717/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-iid-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.8.0.aar/b0ec316b4c3457e10c584d0d23f0e6fb/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-iid-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.8.0.aar/b0ec316b4c3457e10c584d0d23f0e6fb/AndroidManifest.xml:5:5-20
+	android:label
+		ADDED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml:17:9-41
+	android:icon
+		ADDED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml:18:9-43
+	android:name
+		ADDED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml:16:9-57
+activity#com.example.firebaseexample.MainActivity
+ADDED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml:19:9-37:20
+	android:launchMode
+		ADDED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml:21:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml:24:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml:25:13-55
+	android:configChanges
+		ADDED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml:23:13-116
+	android:theme
+		ADDED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml:22:13-47
+	android:name
+		ADDED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml:20:13-41
+meta-data#io.flutter.app.android.SplashScreenUntilFirstFrame
+ADDED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml:30:13-32:40
+	android:value
+		ADDED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml:32:17-37
+	android:name
+		ADDED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml:31:17-82
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml:33:13-36:29
+action#android.intent.action.MAIN
+ADDED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml:34:17-68
+	android:name
+		ADDED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml:34:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml:35:17-76
+	android:name
+		ADDED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml:35:27-74
+uses-sdk
+INJECTED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml
+MERGED from [:firebase_database] /Users/jacobduchen/Desktop/flutter_firebase/build/firebase_database/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_database] /Users/jacobduchen/Desktop/flutter_firebase/build/firebase_database/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/jacobduchen/Desktop/flutter_firebase/build/firebase_core/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/jacobduchen/Desktop/flutter_firebase/build/firebase_core/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-core-11.8.0.aar/9fe71174fbff4accc1c84ce158e0243e/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-core-11.8.0.aar/9fe71174fbff4accc1c84ce158e0243e/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-auth:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.8.0.aar/be8c9c36c0f135070f95034a233d5028/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.8.0.aar/be8c9c36c0f135070f95034a233d5028/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-database-11.8.0.aar/3c6b0684045b81c66875f91c8a87705f/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-database-11.8.0.aar/3c6b0684045b81c66875f91c8a87705f/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/08d1d9fbdd4710bc973a4e0100d8f17a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/08d1d9fbdd4710bc973a4e0100d8f17a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-connection:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.8.0.aar/6f2d4b9b5702f6edd4a5c173939c1d7a/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-connection:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.8.0.aar/6f2d4b9b5702f6edd4a5c173939c1d7a/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/95a0fdcc13af8b4f665d267bf9a706eb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/95a0fdcc13af8b4f665d267bf9a706eb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/72cf6ee5883c283450532c77a95a2eca/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/72cf6ee5883c283450532c77a95a2eca/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/505b140efd166b30f9a3f88409cebd41/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/505b140efd166b30f9a3f88409cebd41/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/eb6eb4ba8715837d483d66c84cf980c2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/eb6eb4ba8715837d483d66c84cf980c2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/581de2b0fae2caf878058a17b335371f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/581de2b0fae2caf878058a17b335371f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-11.8.0.aar/d5c02293226092f4304eb2293560bcd8/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-auth-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-11.8.0.aar/d5c02293226092f4304eb2293560bcd8/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-database-license-11.8.0.aar/f3da00a2a8fa519948b878b8e68aaf76/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-database-license-11.8.0.aar/f3da00a2a8fa519948b878b8e68aaf76/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/140a73001ed76163b78aad9f61b79cc4/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/140a73001ed76163b78aad9f61b79cc4/AndroidManifest.xml:4:5-43
+MERGED from [com.android.support:support-v4:25.2.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/e0397238eb789b87dd643943a9c32d91/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.2.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/e0397238eb789b87dd643943a9c32d91/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/45624ce37b7b924e76684b88ce03b24a/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/45624ce37b7b924e76684b88ce03b24a/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.8.0.aar/21c5a4b853c1d211d2a09bf09ddb2f4b/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.8.0.aar/21c5a4b853c1d211d2a09bf09ddb2f4b/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/fcdd9906dcd97f1f70ff7bd744a333d4/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/fcdd9906dcd97f1f70ff7bd744a333d4/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-connection-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-11.8.0.aar/65a441db98c670ca895c31ada3e26007/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-connection-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-11.8.0.aar/65a441db98c670ca895c31ada3e26007/AndroidManifest.xml:4:5-43
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/65327dfee108dfb0ca4ece4befd5ac3b/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/65327dfee108dfb0ca4ece4befd5ac3b/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/37a51b2bd93c56073e0d988229546ab4/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/37a51b2bd93c56073e0d988229546ab4/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/3cca89a280619082030ef5d3d25f85ab/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/3cca89a280619082030ef5d3d25f85ab/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/56a6321a54956cb817208e5179831897/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/56a6321a54956cb817208e5179831897/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.2.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/a6da9c332cca502a3184213a01495c47/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.2.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/a6da9c332cca502a3184213a01495c47/AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.8.0.aar/e4a84520bf2a024e806d67697c903298/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.8.0.aar/e4a84520bf2a024e806d67697c903298/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.8.0.aar/6133eb6c0ad3ea40a9ede1be02dc1717/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.8.0.aar/6133eb6c0ad3ea40a9ede1be02dc1717/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.8.0.aar/b0ec316b4c3457e10c584d0d23f0e6fb/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.8.0.aar/b0ec316b4c3457e10c584d0d23f0e6fb/AndroidManifest.xml:4:5-43
+INJECTED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:25.2.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/e0397238eb789b87dd643943a9c32d91/AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jacobduchen/Desktop/flutter_firebase/android/app/src/main/AndroidManifest.xml
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.8.0.aar/be8c9c36c0f135070f95034a233d5028/AndroidManifest.xml:23:9-29:75
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.8.0.aar/be8c9c36c0f135070f95034a233d5028/AndroidManifest.xml:25:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.8.0.aar/be8c9c36c0f135070f95034a233d5028/AndroidManifest.xml:27:13-48
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.8.0.aar/be8c9c36c0f135070f95034a233d5028/AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.8.0.aar/be8c9c36c0f135070f95034a233d5028/AndroidManifest.xml:28:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.8.0.aar/be8c9c36c0f135070f95034a233d5028/AndroidManifest.xml:29:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.8.0.aar/be8c9c36c0f135070f95034a233d5028/AndroidManifest.xml:24:13-85
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/08d1d9fbdd4710bc973a4e0100d8f17a/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/08d1d9fbdd4710bc973a4e0100d8f17a/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/08d1d9fbdd4710bc973a4e0100d8f17a/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/08d1d9fbdd4710bc973a4e0100d8f17a/AndroidManifest.xml:24:13-79
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/95a0fdcc13af8b4f665d267bf9a706eb/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/72cf6ee5883c283450532c77a95a2eca/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/72cf6ee5883c283450532c77a95a2eca/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/95a0fdcc13af8b4f665d267bf9a706eb/AndroidManifest.xml:24:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/95a0fdcc13af8b4f665d267bf9a706eb/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/72cf6ee5883c283450532c77a95a2eca/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/72cf6ee5883c283450532c77a95a2eca/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/95a0fdcc13af8b4f665d267bf9a706eb/AndroidManifest.xml:25:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/95a0fdcc13af8b4f665d267bf9a706eb/AndroidManifest.xml:28:9-32:20
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/72cf6ee5883c283450532c77a95a2eca/AndroidManifest.xml:28:9-32:20
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/72cf6ee5883c283450532c77a95a2eca/AndroidManifest.xml:28:9-32:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/95a0fdcc13af8b4f665d267bf9a706eb/AndroidManifest.xml:30:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/95a0fdcc13af8b4f665d267bf9a706eb/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/95a0fdcc13af8b4f665d267bf9a706eb/AndroidManifest.xml:29:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/95a0fdcc13af8b4f665d267bf9a706eb/AndroidManifest.xml:33:9-41:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/95a0fdcc13af8b4f665d267bf9a706eb/AndroidManifest.xml:35:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/95a0fdcc13af8b4f665d267bf9a706eb/AndroidManifest.xml:36:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/95a0fdcc13af8b4f665d267bf9a706eb/AndroidManifest.xml:37:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/95a0fdcc13af8b4f665d267bf9a706eb/AndroidManifest.xml:34:13-100
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/95a0fdcc13af8b4f665d267bf9a706eb/AndroidManifest.xml:38:13-40:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/95a0fdcc13af8b4f665d267bf9a706eb/AndroidManifest.xml:39:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/95a0fdcc13af8b4f665d267bf9a706eb/AndroidManifest.xml:39:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/95a0fdcc13af8b4f665d267bf9a706eb/AndroidManifest.xml:43:9-46:40
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/72cf6ee5883c283450532c77a95a2eca/AndroidManifest.xml:34:9-37:40
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/72cf6ee5883c283450532c77a95a2eca/AndroidManifest.xml:34:9-37:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/95a0fdcc13af8b4f665d267bf9a706eb/AndroidManifest.xml:45:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/95a0fdcc13af8b4f665d267bf9a706eb/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/95a0fdcc13af8b4f665d267bf9a706eb/AndroidManifest.xml:44:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/95a0fdcc13af8b4f665d267bf9a706eb/AndroidManifest.xml:47:9-51:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/95a0fdcc13af8b4f665d267bf9a706eb/AndroidManifest.xml:49:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/95a0fdcc13af8b4f665d267bf9a706eb/AndroidManifest.xml:50:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/95a0fdcc13af8b4f665d267bf9a706eb/AndroidManifest.xml:51:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/95a0fdcc13af8b4f665d267bf9a706eb/AndroidManifest.xml:48:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:26:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:29:9-63
+permission#com.example.firebaseexample.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:32:22-76
+uses-permission#com.example.firebaseexample.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:32:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:35:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:38:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:36:13-78
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:39:13-43:29
+intent-filter#com.example.firebaseexample+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:39:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:40:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:40:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:42:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:42:27-58
+category#com.example.firebaseexample
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:42:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:42:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:51:13-77
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/4d5a50e9216a6a14607fa239a4da4fdb/AndroidManifest.xml:54:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/505b140efd166b30f9a3f88409cebd41/AndroidManifest.xml:8:9-12:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/505b140efd166b30f9a3f88409cebd41/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/505b140efd166b30f9a3f88409cebd41/AndroidManifest.xml:11:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/505b140efd166b30f9a3f88409cebd41/AndroidManifest.xml:12:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/505b140efd166b30f9a3f88409cebd41/AndroidManifest.xml:9:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/581de2b0fae2caf878058a17b335371f/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/581de2b0fae2caf878058a17b335371f/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] /Users/jacobduchen/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/581de2b0fae2caf878058a17b335371f/AndroidManifest.xml:24:13-58
